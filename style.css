@@ -3,10 +3,73 @@ body{
     padding: 0;
 }
 form{
+    color: #FFFFFF;
+    background-color: #000000;
     border: solid 1px red;
     max-width: 1000px;
-    height: 500px;
+    height: 40.25rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 135px;
+    padding: 50px;
+}
+header{
+    border: solid 1px;
+    max-width: 500px;
+    text-align: center;
+}
+.box-inputs{
+    text-align: center;
+    max-width: 500px;
+    height: 15rem;
+    border: solid 1px black;
+    padding-top: 10px;
+}
+.inputs{
+    width: 220px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.box-creat-account{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 500px;
+    border: solid 1px pink;
+}
+.box-sign-in{
+    
+}
+.box-welcome-message{
+    border: solid 1px orange;
+    margin-left: auto;
+    margin-top: -250px;
+    max-width: 300px;
+}
+.checkbox-input{
+    padding-top: 5px;
+}
+.input-name, .input-email, .input-password{
+    padding: 12px;
+}
+.fa-solid{
+    color: rgb(235, 235, 14);
+    padding-right: 5px;
+}
+#creat-account-button{
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(235, 235, 14);
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+}
+.animation-waves{
+    border: solid 1px red;
+    height: 180px;
+    width: 1100px;
+    margin-left: -50px;
+    margin-top: -50px;
 }
