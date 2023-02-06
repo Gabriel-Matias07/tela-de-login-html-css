@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.1-web/css/all.css">
     <title>Login</title>
 </head>
 <body>
  
         <form>
 
+            <div class="animation-waves">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EBEB0E" fill-opacity="1" d="M0,128L14.1,133.3C28.2,139,56,149,85,138.7C112.9,128,141,96,169,112C197.6,128,226,192,254,192C282.4,192,311,128,339,112C367.1,96,395,128,424,138.7C451.8,149,480,139,508,160C536.5,181,565,235,593,234.7C621.2,235,649,181,678,154.7C705.9,128,734,128,762,133.3C790.6,139,819,149,847,144C875.3,139,904,117,932,112C960,107,988,117,1016,117.3C1044.7,117,1073,107,1101,117.3C1129.4,128,1158,160,1186,181.3C1214.1,203,1242,213,1271,192C1298.8,171,1327,117,1355,117.3C1383.5,117,1412,171,1426,197.3L1440,224L1440,0L1425.9,0C1411.8,0,1384,0,1355,0C1327.1,0,1299,0,1271,0C1242.4,0,1214,0,1186,0C1157.6,0,1129,0,1101,0C1072.9,0,1045,0,1016,0C988.2,0,960,0,932,0C903.5,0,875,0,847,0C818.8,0,791,0,762,0C734.1,0,706,0,678,0C649.4,0,621,0,593,0C564.7,0,536,0,508,0C480,0,452,0,424,0C395.3,0,367,0,339,0C310.6,0,282,0,254,0C225.9,0,198,0,169,0C141.2,0,113,0,85,0C56.5,0,28,0,14,0L0,0Z"></path></svg>
+            </div>
+
             <header>
-                <h1>Olá, amigo</h1>
+                <h1>Olá, amigo!</h1>
             </header>
 
-            <div class="inputs">
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="E-mail" required>
-                <input type="password" placeholder="Senha" required>
-                <input type="checkbox"> <label for="terms-and-conditions">Eu aceito os termos e condições</label>
+            <div class="box-inputs">
+                <div class="input-name">
+                    <i class="fa-solid fa-user"></i> <input class="inputs" type="text" placeholder="Nome" required>
+                </div>
+
+                <div class="input-email">
+                    <i class="fa-solid fa-envelope-open"></i> <input class="inputs" type="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="input-password">
+                    <i class="fa-solid fa-lock"></i> <input class="inputs" type="password" placeholder="Senha" required>
+                </div>
+
+                <div class="checkbox-input"><input class="checkbox" type="checkbox">Eu aceito os termos e condições</input></div>
             </div>
 
-            <div class="terms-and-creat-account">
-                <button type="submit">Criar conta</button>
+            <div class="box-creat-account">
+                <button id="creat-account-button" type="submit">Criar conta</button>
             </div>
 
-            <div class="sign-in">
-                <p>Já tem uma conta</p> <a href="#">Entrar</a>
+            <div class="box-sign-in">
+                <p>Já tem uma conta?</p> <a href="#">Entrar</a>
+            </div>
+
+            <div class="box-welcome-message">
+                
+                <h1>Feliz em te ver!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis at maiores voluptatem similique commodi soluta. Rerum non voluptat</p>
+
             </div>
 
         </form>
