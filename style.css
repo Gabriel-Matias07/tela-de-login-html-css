@@ -1,22 +1,28 @@
+*{
+
+}
 body{
+    background-color: #bdbd1d;
     margin: 0;
     padding: 0;
 }
 form{
     color: #FFFFFF;
     background-color: #000000;
-    border: solid 1px red;
     max-width: 1000px;
-    height: 40.25rem;
+    height: 47.25rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 135px;
+    margin-top: 50px;
     padding: 50px;
+    border-radius: 22px;
 }
 header{
-    border: solid 1px;
     max-width: 500px;
     text-align: center;
+}
+header h1{
+    font-weight: bold;
 }
 .box-inputs{
     text-align: center;
@@ -26,7 +32,7 @@ header{
     padding-top: 10px;
 }
 .inputs{
-    width: 220px;
+    width: 290px;
     padding: 12px;
     border-radius: 15px;
 }
@@ -35,15 +41,20 @@ header{
     padding-bottom: 10px;
     text-align: center;
     width: 500px;
-    border: solid 1px pink;
 }
 .box-sign-in{
-    
+    text-align: center;
+    height: 30px;
+    width: 500px;
+}
+.box-sign-in span a{
+    cursor: pointer;
 }
 .box-welcome-message{
-    border: solid 1px orange;
+    text-align: center;
     margin-left: auto;
-    margin-top: -250px;
+    margin-right: 47px;
+    margin-top: -350px;
     max-width: 300px;
 }
 .checkbox-input{
@@ -62,14 +73,27 @@ header{
     background-color: rgb(235, 235, 14);
     text-transform: uppercase;
     cursor: pointer;
-    width: 150px;
-    height: 35px;
+    width: 220px;
+    height: 40px;
     border-radius: 15px;
 }
-.animation-waves{
-    border: solid 1px red;
+.animation-waves-up{
     height: 180px;
     width: 1100px;
     margin-left: -50px;
     margin-top: -50px;
+}
+.animation-waves-up svg{
+    border-radius: 20px;
+}
+.animation-waves-down{
+    border-radius: 20px;
+    height: 238px;
+    width: 1100px;
+    margin-left: -50.5px;
+    margin-top: 180px;
+}
+.animation-waves-down svg{
+    margin-top: 30px;
+    border-radius: 20px;
 }
