@@ -85,6 +85,21 @@ span a{
 .input-name, .input-email, .input-password{
     padding: 12px;
 }
+.input-name:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px #EBEB0E;
+    border-radius: 70px;
+}
+.input-email:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px #EBEB0E;
+    border-radius: 70px;
+}
+.input-password:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px #EBEB0E;
+    border-radius: 70px;
+}
 .fa-solid{
     color: rgb(235, 235, 14);
     padding-right: 5px;
@@ -123,6 +138,7 @@ span a{
     border-radius: 20px;
 }
 .markup-text{
+    text-transform: uppercase;
     text-decoration: none;
     color: #EBEB0E;
 }
